@@ -1,0 +1,40 @@
+body {
+    width: 300px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+}
+.timer-display {
+    font-size: 24px;
+    text-align: center;
+    margin: 10px 0;
+    padding: 10px;
+    background: #ec7575;
+    border-radius: 5px;
+}
+.controls {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.start {
+    background: #4CAF50;
+    color: white;
+}
+.stop {
+    background: #f44336;
+    color: white;
+}
+.settings {
+    margin-top: 15px;
+}
+input {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+}

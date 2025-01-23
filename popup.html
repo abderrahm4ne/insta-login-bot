@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer-display">
+        <span id="seconds">00</span>
+    </div>
+    <div class="controls">
+        <button id="startBot" class="start">Start Bot</button>
+        <button id="stopBot" class="stop">Stop Bot</button>
+        <button id="startScript">Run Script</button>
+    </div>
+    <div class="settings">
+        <label>
+            Refresh Interval (seconds):
+            <input type="number" id="refreshInterval" min="1" value="60">
+        </label>
+        <div id="status" style="margin-top: 10px; color: #666;"></div>
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
